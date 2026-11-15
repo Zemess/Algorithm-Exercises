@@ -1,0 +1,11 @@
+name: Classroom CI (provisional)
+
+on:
+  push:
+
+jobs:
+  pytest:
+    uses: IN00FM22-DSA/02-linear/.github/workflows/reusable-ci.yml@main
+    secrets: inherit
+    permissions:
+      contents: write

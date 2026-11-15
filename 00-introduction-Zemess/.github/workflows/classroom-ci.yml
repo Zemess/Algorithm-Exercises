@@ -1,0 +1,9 @@
+name: Classroom CI (provisional)
+
+on:
+  push:
+
+jobs:
+  pytest:
+    uses: IN00FM22-DSA/00-introduction/.github/workflows/reusable-ci.yml@main
+    secrets: inherit
